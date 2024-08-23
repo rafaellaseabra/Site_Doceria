@@ -1,0 +1,89 @@
+* {
+    padding-left: 11;
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+.nome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Estilo do corpo, fundo do site*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #eb9db3f4;
+    padding-top: 50px;
+}
+
+/* Para acomodar o menu fixo*/
+
+
+
+/* Estilo do cabeçalho e nave*/
+header {
+    background: #bab4b4;
+    color: #5e3155;
+    padding: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: numero;
+    /*alteração em numero*/
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+
+}
+
+/*letra */
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+
+nav ul li a hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+/*Estilo das seções principais */
+/*main {
+    padding: 20px;
+    margin-top: 50px;
+    /*espaço fixo menu
+}*/
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* estilo rodapé, fim*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #717171;
+    color: #f4f4f4;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
